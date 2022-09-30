@@ -15,17 +15,10 @@
 #include "driver/dedic_gpio.h"
 #include "driver/gpio.h"
 
-//Define pins to be used
-// #define GPIO_OUTPUT_IO_0    4
-// #define GPIO_OUTPUT_PIN_SEL  (1ULL<<GPIO_OUTPUT_IO_0)
-// #define ESP_INTR_FLAG_DEFAULT 0
-
-// #define	BUTTON	GPIO_NUM_4
 
 #define EXAMPLE_ESP_WIFI_SSID      ""
 #define EXAMPLE_ESP_WIFI_PASS      ""
 #define EXAMPLE_ESP_MAXIMUM_RETRY  7
-
 
 
 
@@ -145,14 +138,13 @@ void app_main(void)
 
     gpio_set_direction(GPIO_NUM_5, GPIO_MODE_INPUT);
     gpio_set_direction(GPIO_NUM_17, GPIO_MODE_INPUT);
-    gpio_set_direction(GPIO_NUM_15, GPIO_MODE_INPUT);
+    gpio_set_direction(GPIO_NUM_16, GPIO_MODE_INPUT);
     gpio_set_direction(GPIO_NUM_4, GPIO_MODE_INPUT);
     //int x = gpio_get_level(GPIO_NUM_5);
 
-    bool y = true;
-    while (y==true) {
+    while (1) {
         int left = gpio_get_level(GPIO_NUM_5);
-        int right = gpio_get_level(GPIO_NUM_15);
+        int right = gpio_get_level(GPIO_NUM_16);
         int up = gpio_get_level(GPIO_NUM_4);
         int down = gpio_get_level(GPIO_NUM_17);
         
@@ -168,10 +160,5 @@ void app_main(void)
         if (down == 1) {
             ESP_LOGI(TAG, "Down: %d", down);
         }
-        // if (x == 0) {
-        //     ESP_LOGI(TAG, "Input: %d", x);
-        // }
-
     }
-    
 }
