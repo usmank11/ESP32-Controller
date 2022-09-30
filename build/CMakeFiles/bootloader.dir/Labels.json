@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/usmankhan/Desktop/esp32/GameController/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/Users/usmankhan/Desktop/esp32/GameController/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/Users/usmankhan/Desktop/esp32/GameController/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/Users/usmankhan/Desktop/esp32/GameController/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "/Users/usmankhan/Desktop/esp32/GameController/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/Users/usmankhan/Desktop/esp32/GameController/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/Users/usmankhan/Desktop/esp32/GameController/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/Users/usmankhan/Desktop/esp32/GameController/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/Users/usmankhan/Desktop/esp32/GameController/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/Users/usmankhan/Desktop/esp32/GameController/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

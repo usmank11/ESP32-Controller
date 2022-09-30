@@ -1,0 +1,22 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/Users/usmankhan/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/Users/usmankhan/Desktop/esp32/GameController/build/bootloader",
+    "config_file":        "/Users/usmankhan/Desktop/esp32/GameController/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v5.1-dev-992-gaf28c1fa21",
+    "target":             "esp32",
+    "rev":                "0",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/Users/usmankhan/esp/esp-idf/components/efuse/Kconfig;/Users/usmankhan/esp/esp-idf/components/esp_common/Kconfig;/Users/usmankhan/esp/esp-idf/components/esp_hw_support/Kconfig;/Users/usmankhan/esp/esp-idf/components/esp_system/Kconfig;/Users/usmankhan/esp/esp-idf/components/freertos/Kconfig;/Users/usmankhan/esp/esp-idf/components/hal/Kconfig;/Users/usmankhan/esp/esp-idf/components/log/Kconfig;/Users/usmankhan/esp/esp-idf/components/newlib/Kconfig;/Users/usmankhan/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/Users/usmankhan/esp/esp-idf/components/bootloader/Kconfig.projbuild;/Users/usmankhan/esp/esp-idf/components/esp_app_format/Kconfig.projbuild;/Users/usmankhan/esp/esp-idf/components/esp_rom/Kconfig.projbuild;/Users/usmankhan/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/Users/usmankhan/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp_app_format", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/Users/usmankhan/esp/esp-idf/components/bootloader", "/Users/usmankhan/esp/esp-idf/components/bootloader_support", "/Users/usmankhan/esp/esp-idf/components/efuse", "/Users/usmankhan/esp/esp-idf/components/esp_app_format", "/Users/usmankhan/esp/esp-idf/components/esp_common", "/Users/usmankhan/esp/esp-idf/components/esp_hw_support", "/Users/usmankhan/esp/esp-idf/components/esp_rom", "/Users/usmankhan/esp/esp-idf/components/esp_system", "/Users/usmankhan/esp/esp-idf/components/esptool_py", "/Users/usmankhan/esp/esp-idf/components/freertos", "/Users/usmankhan/esp/esp-idf/components/hal", "/Users/usmankhan/esp/esp-idf/components/log", "/Users/usmankhan/esp/esp-idf/components/bootloader/subproject/main", "/Users/usmankhan/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/Users/usmankhan/esp/esp-idf/components/newlib", "/Users/usmankhan/esp/esp-idf/components/partition_table", "/Users/usmankhan/esp/esp-idf/components/soc", "/Users/usmankhan/esp/esp-idf/components/spi_flash", "/Users/usmankhan/esp/esp-idf/components/xtensa", "" ],
+    "debug_prefix_map_gdbinit": ""
+}
